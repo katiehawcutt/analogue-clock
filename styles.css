@@ -1,6 +1,12 @@
+:root {
+  --yellow: #ffc300;
+  --purple: #581845;
+  --pink: #c70039;
+  --salmon: #ff5733;
+}
+
 body {
   margin: 0px;
-  background-color: #ff5733;
   background-image: url(./Images/dotty-background.jpg);
   background-size: 300px 300px;
   height: 100vh;
@@ -21,15 +27,15 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  background-color: #581845;
-  border: 5px solid #ffc300;
+  background-color: var(--purple);
+  border: 5px solid var(--yellow);
   transform: translateX(-5px);
 }
 .hand {
   position: absolute;
   height: 50%;
   width: 4px;
-  background-color: #c70039;
+  background-color: var(--pink);
   border-radius: 5px;
   left: 50%;
   transform-origin: center 100%;
@@ -37,14 +43,14 @@ body {
 }
 .hand.second-hand {
   width: 2px;
-  background-color: #ff5733;
+  background-color: var(--salmon);
 }
 .clock-center {
   position: absolute;
   height: 12px;
   width: 12px;
   border-radius: 100%;
-  background-color: #ffc300;
+  background-color: var(--yellow);
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
