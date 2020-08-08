@@ -2,6 +2,8 @@
 
 ###### August 2020
 
+![JS Clock](Images/js30-clock.PNG)
+
 _I made this clock with a little help from [Wes Bos' JavaScript30](https://wesbos.com/) tutorial although I changed a lot of the CSS design aspects of it to make it my own. I really enjoyed combining CSS and JavaScript to make something really functional._
 
 ### Main Learning Points:
